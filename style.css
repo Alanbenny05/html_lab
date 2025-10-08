@@ -1,19 +1,9 @@
 body{
-
-
+background-color:DarkBlue;
 }
 h1{
-
-
+color:Crimson; text-align:center;
 }
 p{
-
-
-}
-background-color:DarkBlue;
-
-
-color:Crimson; text-align:center;
-
-
 text-align:left; color:Azure;
+}
