@@ -2,10 +2,6 @@
 
 
 <body>
-
-
-
-
 <label>Enter a string:</label><br>
 <input type="text" name="str" id="str1"><br><br>
 <label>enter number</label>
@@ -16,22 +12,28 @@
 function add()
 {
 
-var a,b,c,n,m,i,s,sl,sli; s=(document.getElementById("str1").value); sl=s.length;
-sli=s.slice(5,11); a=(document.getElementById("id1").value); b=(document.getElementById("id2").value); c=Math.pow(a,b);
-n=Math.sqrt(a); m=Math.ceil(a); i=Math.floor(a);
+var a,b,c,n,m,i,s,sl,sli; 
+s=(document.getElementById("str1").value); 
+sl=s.length;
+sli=s.slice(5,11); 
+a=(document.getElementById("id1").value); 
+b=(document.getElementById("id2").value); 
+c=Math.pow(a,b);
+n=Math.sqrt(a); 
+m=Math.ceil(a); 
+i=Math.floor(a);
+(document.getElementById("strlen").value)=sl; 
+(document.getElementById("strsli").value)=sli; 
+(document.getElementById("ans").value)=c; 
+(document.getElementById("sqr").value)=n; 
+(document.getElementById("ceil").value)=m; 
+(document.getElementById("floor").value)=i;
 
-
-
-
-
-
-
-
-
+}
+  
 </script>
 <br><br>
-(document.getElementById("strlen").value)=sl; (document.getElementById("strsli").value)=sli; (document.getElementById("ans").value)=c; (document.getElementById("sqr").value)=n; (document.getElementById("ceil").value)=m; (document.getElementById("floor").value)=i;
-}
+
 
 <button onclick="add()">Get Result</button>
 <br><br>
