@@ -14,31 +14,7 @@
 
 
 
-<html>
-<head>
-<style>
-body {
-  background-color: DarkBlue;
-  color: Azure;
-  text-align: center;
-  font-family: "Times New Roman";
-  font-size: 20px;
-}
-h1 {
-  color: Linen;
-}
-</style>
-</head>
 
-<body>
-<h1>Great Pyramid of Giza</h1>
-<center><img src="pyramids.jpeg" style="width:350px;"></center>
-<p>
-  The Great Pyramid of Giza is the biggest Egyptian pyramid and the tomb of Fourth Dynasty pharaoh Khufu. 
-  Built around the 26th century BC, it is the oldest of the Seven Wonders of the Ancient World and remains largely intact.
-</p>
-</body>
-</html>
 
 
 
