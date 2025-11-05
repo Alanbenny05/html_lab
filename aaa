@@ -1,1 +1,29 @@
+<html>
+<head>
+<title>Link Background Color Example</title>
 
+<style>
+/* Unvisited and visited links */
+a {
+  background-color: lightblue;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Hover and active link states */
+a:hover {
+  background-color: yellow;
+}
+
+a:active {
+  background-color: yellow;
+}
+</style>
+</head>
+
+<body>
+<p><a href="https://www.youtube.com/" target="_blank">YOUTUBE</a></p><br>
+<p><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></p><br>
+<p><a href="https://www.google.com/" target="_blank">GOOGLE</a></p><br>
+</body>
+</html>
