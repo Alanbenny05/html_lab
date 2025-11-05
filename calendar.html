@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Generate Calendar using JavaScript</title>
+</head>
+
+<body>
+<h2>JavaScript Calendar Generator</h2>
+
+<label>YEAR:</label>
+<input type="text" id="year_get"><br><br>
+
+<label>MONTH (1 - 12):</label>
+<input type="text" id="month_get"><br><br>
+
+<input type="button" value="Display Calendar" onclick="generate()"><br><br><br>
+
+<div id="content"></div>
+
+<script>
+function generate() {
+  var init_content = "<table border='1' id='calendar'>" +
+                     "<tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th>" +
+                     "<th>Thu</th><th>Fri</th><th>Sat</th></tr><tr>";
+
+  var year_get = document.getElementById("year_get").value;
+  var month_get = document.getElementById("month_get").value - 1; // JS months 0–11
+  var date = new Date(year_get, month_get);
+  var day = date.getDay();
+
+  // Blank cells before the first day
+  for (var i = 0; i < day; i++) {
+    init_content += "<td></td>";
+  }
+
+  // Fill calendar days
+  while (date.getMonth() == month_get) {
+    init_content += "<td>" + date.getDate() + "</td>";
+    if (date.getDay() == 6) {
+      init_content += "</tr><tr>";
+    }
+    date.setDate(date.getDate() + 1);
+  }
+
+  init_content += "</tr></table>";
+
+  document.getElementById("content").innerHTML = init_content;
+}
+</script>
+</body>
+</html>
