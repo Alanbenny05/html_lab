@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Change Background Color Using JavaScript Event</title>
+<script>
+function change() {
+  // Generate a random color
+  var color = "#" + Math.random().toString(16).slice(2, 8);
+  // Apply it to the page background
+  document.body.style.backgroundColor = color;
+}
+</script>
+</head>
+
+<body>
+<h2>Click the Button to Change Background Color</h2>
+<button type="button" onclick="change()">Change Background Color</button>
+</body>
+</html>
