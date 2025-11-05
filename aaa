@@ -1,0 +1,150 @@
+<html>
+<frameset cols="25%,*">
+  <frame src="link.html"/>
+  <frame src="home.html" name="z" />
+</frameset>
+</html>
+
+
+
+<html>
+<head>
+<style>
+h1 {
+  text-align: center;
+  color: Azure;
+}
+body {
+  background-color: DarkMagenta;
+}
+p {
+  font-size: 30px;
+  color: AliceBlue;
+}
+</style>
+</head>
+
+<body>
+<h1>Famous Monuments</h1>
+<p>
+  <br><br>Taj Mahal
+  <br><br>India Gate
+  <br><br>Charminar
+</p>
+</body>
+</html>
+
+
+
+<html>
+<head>
+<style>
+a {
+  font-size: 30px;
+  color: red;
+}
+body {
+  background-color: Gold;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+<br><br><br><br>
+<h1 align="center">
+  <font face="cooper" color="DarkBlue" size="6">The Famous Monuments</font>
+</h1>
+<a href="home.html" target="z">Home</a><br>
+<a href="tajmahal.html" target="z">Taj Mahal</a><br>
+<a href="pyramid.html" target="z">Pyramids of Giza</a><br>
+<a href="coloesium.html" target="z">The Colosseum, Rome</a>
+</body>
+</html>
+
+
+
+<html>
+<head>
+<style>
+body {
+  background-color: DarkBlue;
+  color: Azure;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+h1 {
+  color: Linen;
+}
+</style>
+</head>
+
+<body>
+<h1>Taj Mahal</h1>
+<center><img src="taj.jpeg" style="width:300px;"></center>
+<p>
+  The Taj Mahal ('Crown of the Palace') is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra. 
+  It was commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favorite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself.
+</p>
+</body>
+</html>
+
+
+
+<html>
+<head>
+<style>
+body {
+  background-color: DarkBlue;
+  color: Azure;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+h1 {
+  color: Linen;
+}
+</style>
+</head>
+
+<body>
+<h1>Great Pyramid of Giza</h1>
+<center><img src="pyramids.jpeg" style="width:350px;"></center>
+<p>
+  The Great Pyramid of Giza is the biggest Egyptian pyramid and the tomb of Fourth Dynasty pharaoh Khufu. 
+  Built around the 26th century BC, it is the oldest of the Seven Wonders of the Ancient World and remains largely intact.
+</p>
+</body>
+</html>
+
+
+
+<html>
+<head>
+<style>
+body {
+  background-color: DarkBlue;
+  color: Azure;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+h1 {
+  color: Linen;
+}
+</style>
+</head>
+
+<body>
+<h1>The Colosseum, Rome</h1>
+<center><img src="colossem.jpeg" style="width:350px; height:200px;"></center>
+<p>
+  The Colosseum is an oval amphitheatre in the centre of Rome, Italy. 
+  It is the largest ancient amphitheatre ever built and remains the largest standing one in the world today.
+</p>
+</body>
+</html>
+
+
+
